@@ -1,0 +1,12 @@
+numpy
+matplotlib
+torch
+torchvision
+timm
+tqdm==4.62.3
+sklearn
+scikit-image
+pandas
+Pillow
+
+transformers
