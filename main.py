@@ -3,12 +3,9 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-from vit_train import vit_train
-from classification_model_bert_unchanged import fine_tune_model, test_saved_model
+from classification_model_bert import fine_tune_model, test_saved_model
 from get_id_label_dataframe import get_id_label_dataframe
 from multimodal_classifcation import multimodal_classification
-from make_u_map import make_u_map
-from u_map_embedded_layers import multimodal_u_maps
 from five_class_setup import five_class_image_text_label
 import pandas as pd
 import os
